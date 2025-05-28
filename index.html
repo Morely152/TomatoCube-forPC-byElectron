@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>番茄魔方</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- 主窗口 -->
     <div class="mainWindow">
@@ -12,20 +14,20 @@
         <nav class="mainWindowBg">
             <!-- 导航栏图标 -->
             <div class="navigator">
-                <img class="navIcon" src="resources\imgs\main_256px.png"/>
-                <hr class="sepLine" width="60%" size="2px" color="#EDEDED"/>
+                <img class="navIcon" src="resources\imgs\main_256px.png" />
+                <hr class="sepLine" width="60%" size="2px" color="#EDEDED" />
                 <button class="navBtn" id="homeBtn" data-selected="true">
                     <img class="navBtnIco" src="resources\imgs\home_btn.svg" width="20px">
-                </button> 
+                </button>
                 <button class="navBtn" id="staticsBtn" data-selected="false">
                     <img class="navBtnIco" src="resources\imgs\statics_btn.svg" width="20px">
-                </button> 
+                </button>
                 <button class="navBtn" id="settingsBtn" data-selected="false">
                     <img class="navBtnIco" src="resources\imgs\settings_btn.svg" width="20px">
-                </button> 
+                </button>
                 <button class="navBtn" id="infoBtn">
                     <img class="navBtnIco" src="resources\imgs\info_btn.svg" width="20px">
-                </button> 
+                </button>
             </div>
         </nav>
         <!-- 右侧主页 -->
@@ -47,27 +49,17 @@
                                 <!-- 进度条背景 -->
                                 <path d="M120,120 
                                             m-110,0 
-                                            a100,100 0 1,1 100, 100" 
-                                        fill="none" 
-                                        stroke="#CCCCCC" 
-                                        stroke-width="20"
-                                        stroke-linecap="round"
-                                        transform="rotate(-45 110 110)" 
-                                         />
+                                            a100,100 0 1,1 100, 100" fill="none" stroke="#CCCCCC" stroke-width="20"
+                                    stroke-linecap="round" transform="rotate(-45 110 110)" />
                                 <!-- 进度条前景 -->
-                                <path id="progress" 
-                                        d="M120,120 
+                                <path id="progress" d="M120,120 
                                         m-110,0 
-                                        a100,100 0 1,1 0, 0" 
-                                        fill="none" 
-                                        stroke="#0077FF" 
-                                        stroke-width="20"
-                                        stroke-linecap="round"
-                                        transform="rotate(-45 110 110)" />
+                                        a100,100 0 1,1 0, 0" fill="none" stroke="#0077FF" stroke-width="20"
+                                    stroke-linecap="round" transform="rotate(-45 110 110)" />
                             </svg>
                             <grid class="ClockBtns">
-                                
-                            </grid> 
+
+                            </grid>
                         </grid>
                         <div class="container">
                             <!-- 白噪音模块 -->
@@ -75,7 +67,7 @@
                         <div class="container tasksManager">
                             <!-- 任务管理模块 -->
                         </div>
-                    </div>  
+                    </div>
                 </div>
                 <div class="container">
                     <!-- 右侧：小纸条 -->
@@ -89,4 +81,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>
