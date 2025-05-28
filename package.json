@@ -1,0 +1,16 @@
+{
+  "name": "tomatocube_by_electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron ."
+  },
+  "keywords": [],
+  "author": "Morely",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "electron": "^34.2.0"
+  }
+}
